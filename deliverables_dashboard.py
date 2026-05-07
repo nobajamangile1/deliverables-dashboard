@@ -203,7 +203,7 @@ hr { border-color: var(--border); }
 """, unsafe_allow_html=True)
 
 # ── Database helpers ────────────────────────────────────────────────────────────
-DB_PATH = "/home/claude/deliverables.db"
+DB_PATH = "/tmp/deliverables.db"
 
 def get_conn():
     conn = sqlite3.connect(DB_PATH, check_same_thread=False)
