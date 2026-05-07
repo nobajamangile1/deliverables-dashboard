@@ -6,7 +6,7 @@ import os
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Deliverables Tracker",
+    page_title="NJ Deliverables Tracker",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded",
